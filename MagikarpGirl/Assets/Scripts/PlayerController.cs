@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     private Vector2 _moveInput;
     private bool isMoving = true;
+    
     [Header("Player movement settings")] [SerializeField]
     private float moveSpeed = 15f;
     [SerializeField] private float turnSpeed = 90f;
